@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'GFS Didot';
+    src: url('../fonts/GFSDidot-Regular.woff2') format('woff2'),
+    url('../fonts/GFSDidot-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GFS Didot', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #707070;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 20px;
+}
+
+.logo-container small {
+    color: #eee;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.logo-symbol {
+    color: darkturquoise;
+}
+
+.code-container {
+    width: 550px;
+    height: 350px;
+    background: #151718;
+    margin: calc((40% - 350px) / 2) auto;
+    border-radius: 7px;
+    box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
+}
+
+.code-buttons-container {
+    padding: 15px;
+}
+
+.code-button {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+.button-red {
+    background: #FF5F56;
+}
+
+.button-orange {
+    background: #FFBD2E;
+}
+
+.button-green {
+    background: #27C93F;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
